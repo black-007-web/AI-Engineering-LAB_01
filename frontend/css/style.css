@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #0b1120;
+    color: #e2e8f0;
+    font-family: Arial, sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    width: min(90%, 700px);
+    text-align: center;
+}
+
+h1 {
+    color: #60a5fa;
+    margin-bottom: 15px;
+}
+
+.status-card {
+    margin-top: 35px;
+    padding: 30px;
+    background: #172033;
+    border: 1px solid #334155;
+    border-radius: 14px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
